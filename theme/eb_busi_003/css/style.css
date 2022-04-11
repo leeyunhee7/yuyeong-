@@ -467,7 +467,7 @@ ul {margin-bottom:0}
 .eb-page-sub-title h4 {position:relative;z-index:1;width:80%;padding:40px 20px;margin:-70px auto 0;text-align:center;font-size:32px;font-weight:900;background:#fff;border-radius:16px !important}
 .eb-page-sub-title h4 span {color:#1971bd/*#da291c*/}
 @media (max-width:991px){
-    .eb-page-sub-title h4 {font-size:20px}
+    .eb-page-sub-title h4 {font-size:32px}
 }
 @media (max-width:767px){
     .eb-page {margin:30px 0 50px}
@@ -503,7 +503,7 @@ ul {margin-bottom:0}
     .eb-page-greeting .greeting-top h3 {font-size:22px;line-height:34px}
     .eb-page-greeting .greeting-top h4, .eb-page-greeting .greeting-bottom h4 {font-size:18px;line-height:30px}
     .eb-page-greeting .greeting-top-image img {max-width:320px !important}
-    .eb-page-greeting .greeting-bottom p {font-size:13px;line-height:23px}
+    .eb-page-greeting .greeting-bottom p {font-size:14px;line-height:23px}
 }
 @media (max-width:767px){
     .eb-page-greeting .greeting-top {margin-bottom:30px}
@@ -703,7 +703,7 @@ ul {margin-bottom:0}
 @media (max-width:767px) {
     .recruit-top h4 {font-size:20px;line-hiehgt:30px}
     .recruit-inquiry p {font-size:9px}
-    .recruit-inquiry dt, .recruit-inquiry dd {font-size:12px}
+    .recruit-inquiry dt, .recruit-inquiry dd {font-size:14px}
     .recruit-inquiry dt {width:100%}
     .recruit-inquiry dd {width:100%}
 	.recruit-inquiry h3 {font-size:20px;font-weight:bold}
@@ -765,7 +765,7 @@ ul {margin-bottom:0}
     .size img{width:100%;margin:10px auto;}
 	.size-text>h2 {text-align:center; font-size:18px; margin:0 0 20px; color:#252525; padding-top:10px;}
 	.size-text {height:300px;}
-	.size-text p{display:block; font-size:11px; line-height:20px; font-weight:500; color:#707070; margin-top:10px; margin-left:10px;}
+	.size-text p{display:block; font-size:14px; line-height:20px; font-weight:500; color:#707070; margin-top:10px; margin-left:10px;}
 }
  /*실사이미지*/
 .images2 {margin:0 auto; width:100%;}
