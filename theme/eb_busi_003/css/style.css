@@ -1,11 +1,23 @@
 /*--------------------------------------
     eyoom (이윰빌더)
 --------------------------------------*/
+
+@font-face {
+
+    font-family: 'NotoSansKR';
+    src: url('../font/NotoSansKR-Regular.woff2'),
+    url('../font/NotoSansKR-Regular.woff') format('woff'),
+    url('../font/NotoSansKR-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+  
 /* 테마 미리보기 미출력 */
 #preview_item {display:none}
 
 /* 폰트 - 구글 나눔고딕 */
-body, h1, h2, h3, h4, h5, h6 {font-family: 'Noto Sans KR', sans-serif}
+body, h1, h2, h3, h4, h5, h6 {font-family: 'NotoSansKR', sans-serif}
 
 /*---------- common ----------*/
 .clear-after:after {content:"";display:block;clear:both}
