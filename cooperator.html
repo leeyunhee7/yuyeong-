@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- description -->
+    <meta name="description" content="이삿짐,물품 보관서비스">
+    <!-- keywords -->
+    <meta name="keywords" content="포장이사, 보관이사, 물류창고임대, 셀프스토리지, 이삿짐보관, 창고대여 ">
+    <meta name="description" content="이삿짐/물품 보관서비스">
+    <meta name="keywords" content="포장이사, 보관이사, 물류창고임대, 셀프스토리지, 이삿짐보관, 창고대여 ">
+    <title>유영물류</title>
+    <link rel="stylesheet" href="./theme/eb_busi_003/css/default.css">
+    <link rel="stylesheet" href="./theme/eb_busi_003/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./theme/eb_busi_003/plugins/slick/slick.min.css">
+    <link rel="stylesheet" href="./js/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700&amp;subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/eb_busi_003/css/common.css">
+    <link rel="stylesheet" href="./theme/eb_busi_003/css/style.css">
+    <!--[if lte IE 8]>
+<script src="http://127.0.0.1/js/html5.js"></script>
+<![endif]-->
+    <!-- <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" defer="" src="//log1.toup.net/mirae_response_load.php?k=povcn"></script>
+    <script>
+        // 자바스크립트에서 사용하는 전역변수 선언
+        var g5_url = "http://127.0.0.1";
+        var g5_bbs_url = "http://127.0.0.1/bbs";
+        var g5_is_member = "";
+        var g5_is_admin = "";
+        var g5_is_mobile = "";
+        var g5_bo_table = "";
+        var g5_sca = "";
+        var g5_editor = "";
+        var g5_cookie_domain = "";
+    </script> -->
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/jquery.menu.js?ver=191202"></script>
+
+    <script src="./js/common.js?ver=191202"></script>
+    <script src="./js/wrest.js?ver=191202"></script>
+    <script src="./js/placeholders.min.js"></script>
+    <script src="./theme/eb_busi_003/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./theme/eb_busi_003/plugins/jquery.bootstrap-hover-dropdown.min.js"></script>
+    <script src="./theme/eb_busi_003/plugins/sidebar/jquery.sidebar.min.js"></script>
+    <script src="./theme/eb_busi_003/plugins/slick/slick.min.js"></script>
+    <script src="./theme/eb_busi_003/js/app.js"></script>
+
+
+
+    <!-- Mirae Log Analysis Script Ver 1.0   -->
+    <!-- <script type="text/javascript">
+        var mi_adkey = "povcn";
+        var mi_is_defender = "";
+        var mi_dt = new Date(), mi_y = mi_dt.getFullYear(), mi_m = mi_dt.getMonth() + 1, mi_d = mi_dt.getDate(), mi_h = mi_dt.getHours();
+        var mi_date = "" + mi_y + (mi_m <= 9 ? "0" : "") + mi_m + (mi_d <= 9 ? "0" : "") + mi_d + (mi_h <= 9 ? "0" : "") + mi_h;
+        var mi_script = "<scr" + "ipt " + "type='text/javascr" + "ipt' src='//log1.toup.net/mirae_log.js?t=" + mi_date + "' charset='utf-8' async='true'></scr" + "ipt>";
+        document.writeln(mi_script);
+    </script>
+    <script type="text/javascript" src="//log1.toup.net/mirae_log.js?t=2022040710" charset="utf-8"
+        async="true"></script> -->
+
+    <!-- Mirae Log Analysis Script END  -->
+
+    <!-- 전환페이지 설정 -->
+    <!-- <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+    <script type="text/javascript">
+        var _nasa = {};
+        _nasa["cnv"] = wcs.cnv("1", "10"); // 전환유형, 전환가치 설정해야함. 설치매뉴얼 참고
+    </script> -->
+
+
+    <!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 -->
+    <!-- <script type="text/javascript" src="//wcs.naver.net/wcslog.js"> </script>
+    <script type="text/javascript">
+        if (!wcs_add) var wcs_add = {};
+        wcs_add["wa"] = "s_397155473669";
+        if (!_nasa) var _nasa = {};
+        wcs.inflow();
+        wcs_do(_nasa);
+    </script> -->
+
+
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="wrapper-inner">
+            <header class="header">
+                <div class="header-top">
+                    <div class="container clear-after">
+                        <h1 class="header-logo">
+                            <a href="index.html">
+                                <img src="./theme/eb_busi_003/img/site_logo.png" alt="유영물류" title="">
+                            </a>
+                        </h1>
+
+                        <div class="top-bar clear-after">
+                            <ul class="top-bar-list list-unstyled">
+                                <li><a href="https://blog.naver.com/youyoung2424"><img
+                                            src="./theme/eb_busi_003/img/section_01/blog.png" alt="blog"
+                                            <="" a=""></a></li><a href="https://blog.naver.com/youyoung2424">
+                                    <!-- 					        <li><a href="http://127.0.0.1/bbs/register.php"><i class="fa fa-edit"></i> <span>회원가입</span></a></li>
+					        <li><a href="http://127.0.0.1/bbs/login.php"><i class="fa fa-power-off"></i> <span>로그인</span></a></li>
+                                                    							<li class="btn-search top-bar-icon"><a href="#" data-toggle="modal" data-target=".search-contents-modal"><i class="fa fa-search"></i></a></li>-->
+                                </a>
+                                <li class="mobile-nav-trigger top-bar-icon"><a
+                                        href="https://blog.naver.com/youyoung2424">
+                                    </a><a href="#" class="sidebar-left-trigger" data-action="toggle" data-side="left">
+                                        <i class="fa fa-bars"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+                <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-175243977-1"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+
+                    gtag('config', 'UA-175243977-1');
+                </script>
+
+
+
+
+
+                <div id="header-fixed" class="header-nav header-sticky">
+                    <div class="navbar" role="navigation">
+                        <div class="container">
+                            <nav class="sidebar left" style="left: -1140px;">
+                                <div class="sidebar-left-content">
+                                    <h3>메인메뉴</h3>
+                                    <ul class="nav navbar-nav">
+                                        <li class="dropdown division" style="width: 20%;">
+                                            <a href="index.html" target="_self"
+                                                class="dropdown-toggle disabled" data-hover="dropdown">
+                                                회사소개 </a>
+                                            <!-- <a href="#" class="cate-dropdown-open dorpdown-toggle hidden-lg hidden-md"
+                                                data-toggle="dropdown"></a> -->
+                                            <!-- <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu ">
+                                                    <a href="index.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        회사개요 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="cooperator.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        고객사/협력사 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="map.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        찾아오시는 길 </a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="dropdown division" style="width: 20%;">
+                                            <a href="cooperator.html" target="_self"
+                                                class="dropdown-toggle disabled" data-hover="dropdown">
+                                                고객사/협력사</a>
+                                            <!-- <a href="#" class="cate-dropdown-open dorpdown-toggle hidden-lg hidden-md"
+                                                data-toggle="dropdown"></a> -->
+                                            <!-- <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu ">
+                                                    <a href="index.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        회사개요 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="cooperator.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        고객사/협력사 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="map.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        찾아오시는 길 </a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="dropdown division" style="width: 20%;">
+                                            <a href="visit.html" target="_self"
+                                                class="dropdown-toggle disabled" data-hover="dropdown">
+                                                찾아오시는 길 </a>
+                                            <!-- <a href="#" class="cate-dropdown-open dorpdown-toggle hidden-lg hidden-md"
+                                                data-toggle="dropdown"></a> -->
+                                            <!-- <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu ">
+                                                    <a href="storage.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        보관안내 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="storage_process.html"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        보관절차 및 규격 </a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                        <li class="division" style="width: 20%;">
+                                            <a href="storage.html"
+                                                target="_self" class="dropdown-toggle disabled" data-hover="dropdown">
+                                                보관시스템 </a>
+                                        </li>
+                                        <li class="dropdown division" style="width: 20%;">
+                                            <a href="storage_process.html"
+                                                target="_self" class="dropdown-toggle disabled" data-hover="dropdown">
+                                                보관절차 및 규격 </a>
+                                            <!-- <a href="#" class="cate-dropdown-open dorpdown-toggle hidden-lg hidden-md"
+                                                data-toggle="dropdown"></a> -->
+                                            <!-- <ul class="dropdown-menu">
+                                                <li class="dropdown-submenu ">
+                                                    <a href="http://daeyuong.cafe24.com/bbs/board.php?bo_table=free"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        고객게시판 </a>
+                                                </li>
+                                                <li class="dropdown-submenu ">
+                                                    <a href="http://daeyuong.cafe24.com/bbs/board.php?bo_table=gallery"
+                                                        target="_self">
+                                                        <span class="submenu-marker"></span>
+                                                        갤러리 </a>
+                                                </li>
+                                            </ul> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="header-sticky-space"></div>
+
+            <div class="board-title"
+                style="background-image:url(./theme/eb_busi_003/img/board_title/gr_4.jpg);">
+                <div class="board-title-caption">
+                    <!--	<div class="container">
+					<h2><span></span></h2>
+				</div>-->
+                </div>
+            </div>
+
+            <div class="board-navar">
+                <ul class="list-inline">
+                </ul>
+            </div>
+
+            <div class="basic-body sub-basic-body">
+                <div class="main-layout">
+                    <div class="basic-body-main">
+
+                        <div class="eb-page eb-page-talent">
+                            <div class="container">
+                                <div class="master-title">
+                                    <h2>고객사</h2>
+                                </div>
+
+                                <div class="eb-page-sub-title">
+                                    <img src=".//theme/eb_busi_003/img/page/together.jpg"
+                                        class="img-responsive">
+                                    <h4 class="aa">고객사와 함께하는 <span>성공스토리</span></h4>
+                                </div>
+
+                                <div class="eb-page-talent-list">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <div class="eb-page-box eb-page-box-1">
+                                                <div class="eb-page-image waypoints-down">
+                                                    <!--<img src="../theme/eb_busi_003/img/page/business(1).jpg" alt="image">-->
+                                                </div>
+
+
+                                                <div class="greeting-bottom">
+                                                    <div class="container">
+                                                        <h4>유영물류의 가치를 더욱 풍요롭게 해주는 각 분야 별 고객사 입니다. <br>공존과 성장을 목표로 더 높은
+                                                            가치를 실현하기 위해 오늘도 함께 고민하며 노력하고 있습니다. <br>다양한 분야의 고객과 함께 만들어가는
+                                                            유영물류의 성장 스토리에 귀 기울여 주세요.</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!--  <li>
+                    <div class="eb-page-box eb-page-box-3">
+                        <div class="eb-page-image waypoints-down">
+                            <img src="../theme/eb_busi_003/img/page/business(3).jpg" alt="image">
+                        </div>
+                        <div class="eb-page-content">
+                            <h4>Refrigerator connention</h4>
+                            <h5>식품보관을 원하시는 고객님께는 냉장고 전원을 연결하여 <strong>신선함</strong>을 유지합니다.</h5>
+                            <p>자금제공자의 이익추구 목적에 따라 투자형과 비투자형으로 구분할 수 있으며, 비투자형은 단순한 기부를 목적으로 하는 기부형(donation)과 일정한 보상을 받는 후원형(reward)이 있고, 투자형은 개인 간의 대출형(lending)과 증권을 매개로 한 지분투자형(equity)이 있다.</p>
+                        </div>
+                    </div>
+                </li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sub-page page-recruit">
+                            <div class="recruit-top">
+                                <div class="container">
+                                    <h4><span>고객사</span></h4><br>
+                                    <div class="row">
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/seodaemun.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/naturalway.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/miesluis.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/sfexpress.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/shudder.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/m.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/markerslab.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/ictwak.jpg" alt="image">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/ssangyung.jpg" alt="image">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/woncar.jpg" alt="image">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/sbs.jpg" alt="image">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-6 col-sm-3">
+                                            <div class="recruit-process-box">
+                                                <img src="./theme/eb_busi_003/img/page/cesco.jpg" alt="image">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="container">
+        <div class="recruit-bottom">
+            <div class="recruit-inquiry">
+                <h3>기업물류보관</h3>
+                <dl class="first-dl">
+                    <dt><img src="../theme/eb_busi_003/img/page/img001.jpg" alt="image"></dt>
+                    <dd>기업 내 보관창고 부족 <br> 제품의 장 &middot; 단기 보관</dd>
+                </dl>
+               <!-- <dl>
+                    <dt>상시모집</dt>
+                    <dd>홈페이지 상 채용공고를 통해 연간 상시 채용</dd>
+                </dl>-->
+
+                            <!--<h3 class="margin-top-40">가정물품 보관이사 </h3>
+    			<dl class="first-dl">
+    				<dt><img src="../theme/eb_busi_003/img/page/img002.jpg" alt="image"></dt>
+    				<dd>장기간 해외출장 <br> 유학 <br> 인테리어 작업</dd>
+    			</dl>
+				<!--<dl>
+    				<dt> 이메일 문의</dt>
+    				<dd><a href="mailto:">recruit@webmaster.com</a></dd>
+    			</dl>-->
+
+                            <!--<h3 class="margin-top-40">사무실 보관이사</h3>
+    			<dl class="first-dl">
+    				<dt><img src="../theme/eb_busi_003/img/page/img004.jpg" alt="image"></dt>
+    				<dd>사무실 인테리어 <br> 사무실 확장 이전 <br> 부서축소로 인한 사무집기 보관</dd>
+    			</dl>
+				<!--<dl>
+    				<dt> 이메일 문의</dt>
+    				<dd><a href="mailto:">recruit@webmaster.com</a></dd>
+    			</dl>-->
+
+                            <!--<h3 class="margin-top-40">기타 보관이사</h3>
+    			<dl class="first-dl">
+    				<dt><img src="../theme/eb_busi_003/img/page/img003.jpg" alt="image"></dt>
+    				<dd>무대장치 &middot; 전시품 &middot; 각종화물보관</dd>
+    			</dl>
+				
+				<!--<dl>
+    				<dt> 이메일 문의</dt>
+    				<dd><a href="mailto:">recruit@webmaster.com</a></dd>
+    			</dl>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <ul class="footer-menu list-unstyled list-inline">
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                    </ul>
+
+                    <address class="footer-info">
+                        <span>대표 : 유영옥</span>
+                        <span class="info-divider">|</span>
+                        <span>사업자등록번호 : 567-81-01229</span>
+                        <span class="info-divider">|</span>
+                        <span>주소 : 경기도 포천시 해룡로 48</span>
+                        <span class="info-divider">|</span>
+                        <span>T. 1599-1154</span>
+                        <!--<span>E-mail : <a href="mailto:webmaster@site.name">youyoung1907@naver.com</a></span>--><br>
+
+                        <!--<span class="info-divider">|</span>-->
+                        <span>E-mail : <a href="mailto:webmaster@site.name">youyoung1907@naver.com</a></span>
+                    </address>
+                </div>
+                <div class="col-md-offset-1 col-md-3">
+                    <!--	<dl class="family-site">
+							<dt><a href="" class="hte-font-hover">Family site<i class="fa fa-sort-up"></i></a></dt>
+							<dd>
+								<ul class="list-unstyled">
+									<li><a href="https://blog.naver.com/miesandlouis" target="_blank">MIES&LOUIS</a></li>
+									<li><a href="https://www.sdm.go.kr/index.do" target="_blank">서대문구청</a></li>
+									<li><a href="http://www.naturalway.co.kr/" target="_blank">NATURALWAY</a></li>
+									<li><a href="https://www.sf-express.com/kr/ko/" target="_blank">SF EXPRESS</a></li>
+<!--									<li><a href="#" target="_blank">Family site-05</a></li>-->
+                    <!--		</ul>
+							</dd>
+						</dl> -->
+                </div>
+            </div>
+            <p class="copyright">Copyright © 유영물류. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- <div class="fix-navi">
+	    <div class="btn-fix-navi"><i class="fa fa-caret-left"></i></div>
+	    <h3>Quick<br>Service</h3>
+	    <ul class="list-unstyled">
+	    	<li><a href="">물류접수</a></li>
+	    	<li><a href="">물류추적</a></li>
+	    	<li><a href="">견적문의</a></li>
+	    	<li><a href="">전화상담</a></li>
+	    	<li><a href=""><img src="http://127.0.0.1/theme/eb_busi_003/img/section_01/cacao.png" alt="icon">카톡상담</a></li>
+	    </ul>
+	    <div class="btn-fix-navi-top"><h6><i class="fa fa-chevron-up"></i>TOP</h6></div>
+    </div>-->
+
+    <div class="back-to-top hidden-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
+    <div class="sidebar-left-mask sidebar-left-trigger" data-action="toggle" data-side="left"></div>
+    <div class="sidebar-right-mask sidebar-right-trigger" data-action="toggle" data-side="right"></div>
+
+    <!-- <div class="modal fade search-contents-modal" aria-hidden="true">
+        <div class="modal-box modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="member-contents">
+                        <div class="member-contnets-mid">
+                            <form name="fsearchbox" method="get" action="http://127.0.0.1/bbs/search.php"
+                                onsubmit="return fsearchbox_submit(this);">
+                                <input type="hidden" name="sfl" value="wr_subject||wr_content">
+                                <input type="hidden" name="sop" value="and">
+                                <label for="sch_stx" class="sound_only"><strong>검색어 입력 필수</strong></label>
+                                <div class="input input-button">
+                                    <input type="text" name="stx" id="head_sch_stx" class="sch_stx" maxlength="20"
+                                        placeholder="검색어 입력">
+                                    <div class="button"><input type="submit"><i class="fa fa-search"></i></div>
+                                </div>
+                            </form>
+                            <script>
+                                function fsearchbox_submit(f) {
+                                    if (f.stx.value.length < 2) {
+                                        alert("검색어는 두글자 이상 입력하십시오.");
+                                        f.stx.select();
+                                        f.stx.focus();
+                                        return false;
+                                    }
+
+                                    // 검색에 많은 부하가 걸리는 경우 이 주석을 제거하세요.
+                                    var cnt = 0;
+                                    for (var i = 0; i < f.stx.value.length; i++) {
+                                        if (f.stx.value.charAt(i) == ' ')
+                                            cnt++;
+                                    }
+
+                                    if (cnt > 1) {
+                                        alert("빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다.");
+                                        f.stx.select();
+                                        f.stx.focus();
+                                        return false;
+                                    }
+
+                                    return true;
+                                }
+                            </script>
+                        </div>
+                        <div class="member-contnets-bottom">
+                            <button type="button" data-dismiss="modal"><i class="fa fa-close"></i> CLOSE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <script>
+        $(document).ready(function () {
+            App.init();
+        });
+    </script>
+
+    <!-- } 하단 끝 -->
+
+
+
+    <!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+    <!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+
+
+</body>
+
+</html>
