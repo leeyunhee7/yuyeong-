@@ -746,7 +746,7 @@ ul {margin-bottom:0}
 @media (max-width:767px){
     .step-wrap .step-content h5 {font-size:18px;line-height:28px}
 	.step-wrap .step-circle h4 {padding-top:40px;font-size:17px;line-height:27px;font-weight:600;}
-    .step-wrap .step-content p {font-size:11px;line-height:23px}
+    .step-wrap .step-content p {font-size:15px;line-height:23px}
 	.step-wrap .step-circle img {width:60px; height:60px; margin:30px auto; }
 }
 
