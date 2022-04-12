@@ -763,8 +763,8 @@ ul {margin-bottom:0}
 }
 @media (max-width:767px){
     .size img{width:100%;margin:10px auto;}
-	.size-text>h2 {text-align:center; font-size:18px; margin:0 0 20px; color:#252525; padding-top:10px;}
-	.size-text {height:300px;}
+	.size-text>h2 {text-align:center; font-size:18px; margin:0 0 20px; color:#252525; padding-top:30px;}
+	.size-text {height:350px;}
 	.size-text p{display:block; font-size:14px; line-height:20px; font-weight:500; color:#707070; margin-top:10px; margin-left:10px;}
 }
  /*실사이미지*/
