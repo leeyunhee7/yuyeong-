@@ -44,7 +44,7 @@ ul {margin-bottom:0}
 .top-bar {float:right}
 .top-bar-list > li {float:left;margin-left:15px}
 .top-bar-list > li > a {display:block;line-height:36px;color:#707070;font-size:12px}
-.top-bar-icon {width:36px;height:36px;text-align:center;background:#AA8763;;border-radius:18px !important}
+.top-bar-icon {width:36px;height:36px;text-align:center;background:#1A3873 /*#AA8763*/;border-radius:18px !important}
 .top-bar-icon:hover {background:#474037}
 .top-bar-icon i {line-height:36px;color:#fff}
 @media (min-width:768px){
@@ -753,7 +753,7 @@ ul {margin-bottom:0}
  /*부스규격*/
 .size {margin:0 auto; width:100%;}
 .size>img {display:block; float:left; width:33.3%;}
-.size-text {width:100%; height:560px; background-color:#efefef;}
+.size-text {width:100%; height:100%;padding-bottom:30px; background-color:#efefef;}
 .size-text>h2 {text-align:center; font-size:36px; margin:0 0 20px; color:#252525; padding-top:60px;}
 .size-text>p {display:block; font-size:26px;line-height:48px;font-weight:500;color:#707070; margin-top:40px; margin-left:180px;}
 @media (max-width:991px){
@@ -764,7 +764,7 @@ ul {margin-bottom:0}
 @media (max-width:767px){
     .size img{width:100%;margin:10px auto;}
 	.size-text>h2 {text-align:center; font-size:18px; margin:0 0 20px; color:#252525; padding-top:30px;}
-	.size-text {height:350px;}
+	.size-text {height:100%;}
 	.size-text p{display:block; font-size:14px; line-height:20px; font-weight:500; color:#707070; margin-top:10px; margin-left:10px;}
 }
  /*실사이미지*/
